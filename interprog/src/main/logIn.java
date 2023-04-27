@@ -4,6 +4,12 @@
  */
 package main;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.DriverManager;
+import java.sql.Statement;
+import java.sql.ResultSet;
+
 /**
  *
  * @author velas
@@ -118,7 +124,9 @@ public class logIn extends javax.swing.JFrame {
         // TODO add your handling code here:
         // Login
         try {
-            
+            String url = "";
+            String name = username.getText();
+            String pass = password.getText();
         }
         catch(Exception e) {
         }
